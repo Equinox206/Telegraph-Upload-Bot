@@ -11,11 +11,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", "").strip()
-API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+API_ID = os.getenv("10902915", "").strip()
+API_HASH = os.getenv("39d7a7fa8844fe3c75d726475036d7bb", "").strip()
+BOT_TOKEN = os.getenv("7370743041:AAECE0lgn062iQ3kIMokbO8OCpaHos9eqtU", "").strip()
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+MUST_JOIN = os.getenv("https://t.me/azeezchannel", "")
 LOG_ID = int(os.getenv("LOG_ID", ""))
 
 if not API_ID:
